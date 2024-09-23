@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los grupos */
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+
+.nav-left ul, .nav-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Eliminar margen para evitar espacio extra */
+    display: flex; /* Alinear elementos en línea */
+}
+
+.nav-left ul li,
+.nav-right ul li {
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0 0 0;
+}
+
+/* Estilo para el formulario y sus elementos */
+form {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 20px auto; /*Centra el formulario horizontalmente*/
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+}
+
+label {
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+    font-weight: bold; /* Resaltar la etiqueta */
+}
+
+input, textarea {
+    padding: 15px; /* Espaciado dentro de los campos */
+    border: 1px solid #ccc; /* Bordes del campo */
+    border-radius: 4%; /* Bordes redondeados */
+    width: 100%; /* Campo ocupa todo el ancho disponible */
+}
+
+button {
+    align-self: center;
+    width: 400px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 15px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón */
+}
